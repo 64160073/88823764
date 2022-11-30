@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <!-- 
+    <h1>Heading</h1>
+    phone<p>wilaiwan
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+    <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+    <dl>
+        <dt>Coffee</dt>
+        <dd>- black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>- white cold drink</dd>
+    </dl>
+     loop 
+    <dt>Coffee</dt>
+    
+    <a href="https://www.google.com/" target="_blank">Visit Google</a>
+    <a href="#test" target="_blank">test</a>
+    <table>
+        <tr>
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>Alfreds Futterkiste</td>
+            <td>Maria Anders</td>
+            <td>Germany</td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th></th>
+            <th scope="col">Saturday</th>
+            <th scope="col">Sunday</th>
+        </tr>
+        <tr>
+            <th scope="row">Tickets sold:</th>
+            <td>120</td>
+            <td>135</td>
+        </tr>
+        <tr>
+            <th scope="row">Total sales:</th>
+            <td>$600</td>
+            <td>$675</td>
+        </tr>
+    </table>
+    <tr>
+        <table>
+            <tr>
+                <th></th>
+                <th>9am</th>
+                <th>10am</th>
+                <th>11am</th>
+                <th>12am</th>
+            </tr>
+            <th>Monday</th>
+            <td colspan="2">Geography</td>
+            <td>Math</td>
+            <td>Art</td>
+    </tr>
+    </table>
+    <table>
+        <tr>
+            <th></th>
+            <th>ABC</th>
+            <th>BBC</th>
+            <th>CNN</th>
+        </tr>
+        <tr>
+            <th>6pm - 7pm</th>
+            <td rowspan="2">Movie</td>
+            <td>Comedy</td>
+            <td>News</td>
+        </tr>
+        <tr>
+            <th>7pm - 8pm</th>
+            <td>Sport</td>
+            <td>Current Affairs</td>
+        </tr> 
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Income</th>
+                <th>Expenditure</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>1st January</th>
+                <td>250</td>
+                <td>36</td>
+            </tr>
+            <tr>
+                <th>2nd January</th>
+                <td>285</td>
+                <td>48</td>
+            </tr>
+            <!-- additional rows as above 
+            <tr>
+                <th>31st January</th>
+                <td>129</td>
+                <td>64</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td></td>
+                <td>7824</td>
+                <td>1241</td>
+            </tr>
+        </tfoot>
+    </table>
+    <TABLE BORDER="2">
+        <CAPTION> การสร้างตาราง </CAPTION>
+        <TR>
+            <TH> หัวเรื่อง 1 </TH>
+            <TH> หัวเรื่อง 2 </TH>
+        </TR>
+
+        <TR>
+            <TD> ข้อมูล 1 </TD>
+            <TD> ข้อมูล 2 </TD>
+        </TR>
+    </TABLE>
+-->
+
+    <!-- Input type=”text” 
+    <form action="#">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname">
+
+        <input type="reset">
+        <input type="submit">
+
+        <input type="reset">Reset</button>
+        <button type="submit">submit</button>
+    </form>
+    <!-- Input type=”password” 
+    <form>
+        <label for="username">Username:</label>
+        <br>
+        <input type="text" id="username" name="username">
+        <br>
+        <label for="pass">Password:</label>
+        <br>
+        <input type="password" id="pass" name="password">
+    </form> -->
+
+    <h1>workshop # html-form</h1>
+    <table>
+        <form>
+            <tr width="120" align="left">
+                <th><label for="fname">ชื่อ</label></th>
+                <th><input type="text" id="fname" name="fname"></th>
+            </tr>
+            <tr width="100" align="left">
+                <th><label for="lname">สกุล</label></th>
+                <th><input type="text" id="lname" name="lname"></th>
+            </tr>
+            <tr width="120" align="left">
+                <th><label for="data">วัน/เดือน/ปีเกิด</label></th>
+                <th><input type="date" id="data" name="data"></th>
+            </tr>
+            <tr width="120" align="left">
+                <th><label for="age">อายุ</label></th>
+                <th><input type="text" id="age" name="age"></th>
+            </tr>
+            <tr width="120" align="left">
+                <th><label for="sex">เพศ</label></th>
+                <th><input type="radio" id="man" name="sex_language" value="man">
+                    <label for="man">ชาย</label>
+                    <input type="radio" id="woman" name="sex_language" value="woman">
+                    <label for="woman">หญิง</label>
+                </th>
+            </tr>
+            <tr width="120" align="left">
+                <th><label for="picture">รูป</label></th>
+                <th> <input type="file" id="myfile" name="myfile"></th>
+            </tr>
+            <tr>
+                <th width="120" align="left">ที่อยู่</th>
+                <th align="left"><textarea rows="5" cols="25"></textarea></th>
+            </tr>
+            <tr width="120" align="left">
+                <th><label for="picture">สีที่ชอบ</label></th>
+                <th> <select name="color" id="color">
+                        <option value="red">สีแดง</option>
+                        <option value="greem">สีเขียว</option>
+                        <option value="black">สีดำ</option>
+                        <option value="while">สีขาว</option>
+                        <option value="blue">สีน้ำเงิน</option>
+                    </select></th>
+            </tr>
+            <tr width="120" align="left">
+                <th><label for="music">เพลงที่ชอบ</label></th>
+                <th><input type="radio" id="m1" name="m" value="m1">
+                    <label for="man">เพื่อชีวิต</label>
+                    <input type="radio" id="m2" name="m" value="m2">
+                    <label for="woman">ลูกทุ่ง</label>
+                    <input type="radio" id="m2" name="m" value="m3">
+                    <label for="woman">อื่นๆ</label>
+                </th>
+            </tr>
+    </table>
+    <br>
+    <input type="checkbox" id="yes" name="yes" value="yes">
+    <label for="vehicle1"> ยินยอมให้เก็บข้อมูล</label><br><br>
+    <button value="reset">Reset</button>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+    <input type="button" value="Submit"><br>
+    </form>
+</body>
+
+</html>
